@@ -4,59 +4,44 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
-    padding:1em;
-    border:1px solid lightgray;
     margin:0 auto;
     text-align: center;
-    align-content: center;
-    display: grid;
-    justify-content: center; 
-    
+    padding: 20px;   
 }
-
-header, nav, p {
-    align-items: center;    
-}
-
 
 header, nav, section, aside, footer {
     background: #ebebeb;
     width: 100%;
-    padding:1em;
-    border:1px solid lightgray;
-    margin-bottom:1em;
-    text-align: center;
-    align-items: center;
+    padding: 20px;
+    margin-bottom:20px;    
+    float: left;
 }
-#container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+
+header{
+    margin-bottom:10px;
 }
 
 section {
     width:495px;
-    margin-right: 10px;
-    float:  left;
 }
 aside {
-    width:350px;
-    margin-left: 5px;
+    width:400px;
+    margin: 0px;
+    padding: 0px;
+    height: 325px;
+    margin-left: 25px;
     float: right;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    max-width:495px;
-    padding:1em;
-    border:1px solid lightgray;
-    margin-bottom:1em;
-    text-align: center;
-    
+    padding: 10px;
+    margin: 20px;    
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+    padding: 10px;
 }
