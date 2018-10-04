@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
@@ -6,7 +9,8 @@ body {
     font-size: 18px;
     margin:0 auto;
     text-align: center;
-    padding: 20px;   
+    /* padding: 20px;    */
+    padding-top: 20px;
 }
 
 header, nav, section, aside, footer {
@@ -25,12 +29,12 @@ section {
     width:495px;
 }
 aside {
-    width:400px;
-    margin: 0px;
+    width:435px;
+    background: #ebebeb;
     padding: 0px;
     height: 325px;
-    margin-left: 25px;
-    float: right;
+    margin-left: 30px;
+    
 }
 
 article {
